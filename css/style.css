@@ -75,10 +75,54 @@ nav a:hover {
   background: #f0f0f0;
 }
 
+footer {
+  background: #222;
+  color: #fff;
+  padding: 1.4rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-social svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+footer p {
+  font-size: 12px;
+  color: #fff;
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  transition: color 0.15s;
+}
+
+footer a:hover { color: #fff; }
+
+.footer-social svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
 main {
-  max-width: 940px;
   margin: 0 auto;
   padding: 36px 20px 48px;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 28px;
 }
 
 main h2 {
@@ -87,6 +131,120 @@ main h2 {
   font-weight: 700;
   margin-bottom: 28px;
   text-decoration: underline;
+}
+
+.landing {
+  padding: 0px;
+  margin: 0px;
+}
+
+.inicio {
+  width: 100%;
+  height: 500px;
+  margin: 0px;
+  background-image: url(/assets/imgs/patodegoma.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-content: center;
+  text-align: center;
+}
+
+.boton1 {
+  width: 100%;
+  padding: 11px;
+  background: #000000;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.15s;
+  margin: auto;
+}
+
+.boton1:hover {
+  background: #353535;
+}
+
+.objetivos-contenedor {
+  display: flex;
+  justify-content: center;
+}
+
+.objetivos {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  max-width: 30%;
+  margin: 15px;
+}
+
+.objetivos h1 {
+  font-size: 40px;
+}
+
+.objetivos p {
+  font-size: 20px;
+  margin: 30px;
+}
+
+.emoji {
+  font-size: 100px;
+}
+
+.porque {
+  background: #faefc0;
+  border-radius: 8px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.porque-contenedor {
+  display: flex;
+}
+
+.porque-texto {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.porque-texto p {
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.porque-numeros {
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.numeros-contenedor {
+  background-color: white;
+  border-radius: 8px;
+  min-width: 200px;
+}
+
+.numeros {
+  font-size: 30px;
+  color: #c38603;
+  margin: 0px;
+}
+
+.title2 {
+  font-size: 30px;
 }
 
 .catalogo {
@@ -99,7 +257,6 @@ main h2 {
   background: #fff;
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   text-align: justify;
@@ -171,44 +328,6 @@ main h2 {
 
 .detalles:hover {
   background: #e0aa00;
-}
-
-footer {
-  background: #222;
-  color: #fff;
-  padding: 1.4rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.footer-social svg {
-  width: 24px;
-  height: 24px;
-  fill: currentColor;
-}
-
-footer p {
-  font-size: 12px;
-  color: #fff;
-}
-
-footer a {
-  color: #ccc;
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-  transition: color 0.15s;
-}
-
-footer a:hover { color: #fff; }
-
-.footer-social svg {
-  width: 24px;
-  height: 24px;
-  fill: currentColor;
 }
 
 @media (max-width: 600px) {
